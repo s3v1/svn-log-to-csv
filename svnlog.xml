@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="85247">
+<author>rsti</author>
+<date>2018-01-15T09:34:20.912866Z</date>
+<paths>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/SourceProjects/TIADB/trunk/general/delta_ddl.sql</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/SourceProjects/TIADB/trunk/general/install.sql</path>
+</paths>
+<msg>TIA-14564 - No history record of the first version of answers to claim questions</msg>
+</logentry>
+<logentry
+   revision="85231">
+<author>rsti</author>
+<date>2018-01-12T14:33:45.866024Z</date>
+<paths>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/SourceProjects/TIADB/trunk/claim/claim/T5620.tab</path>
+<path
+   kind="file"
+   action="M"
+   prop-mods="false"
+   text-mods="true">/SourceProjects/TIADB/trunk/general/delta_ddl.sql</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/SourceProjects/TIADB/trunk/general/install.sql</path>
+</paths>
+<msg>TIA-14564 - No history record of the first version of answers to claim questions</msg>
+</logentry>
+<logentry
+   revision="85225">
+<author>pny</author>
+<date>2018-01-12T12:40:40.330877Z</date>
+<paths>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/SourceProjects/TIADB/trunk/policy/policy/B1193.pls</path>
+</paths>
+<msg>TIA-14560: Implemented call to create debit when a policy line is turned into short term and start date is changed.</msg>
+</logentry>
+<logentry
+   revision="85224">
+<author>pny</author>
+<date>2018-01-12T12:31:54.233760Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/SourceProjects/TIADB/trunk/policy/producteditor/T0243.pls</path>
+</paths>
+<msg>TIA-14604: Replaced risk no validation with call to standard procedure to support product variant </msg>
+</logentry>
+<logentry
+   revision="85223">
+<author>rsti</author>
+<date>2018-01-12T12:08:36.677940Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/SourceProjects/TIADB/trunk/common/menuauthorisation/T8130.pls</path>
+</paths>
+<msg>TIA-11931 - F8130 - Companies: it's possible to delete a company related to departments</msg>
+</logentry>
+<logentry
+   revision="85182">
+<author>gsi</author>
+<date>2018-01-11T06:16:17.512945Z</date>
+<paths>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/SourceProjects/TIADB/trunk/generalledger/generalledger/T6170.tab</path>
+</paths>
+<msg>ACF-996 REST - get center code. Comma was missing in tab file.</msg>
+</logentry>
+<logentry
+   revision="85151">
+<author>rsti</author>
+<date>2018-01-09T07:58:28.379452Z</date>
+<paths>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/SourceProjects/TIADB/trunk/claim/claim/P5700.pls</path>
+</paths>
+<msg>TIA-14550 - Claim item is posted wrong into GL</msg>
+</logentry>
+<logentry
+   revision="85148">
+<author>rse</author>
+<date>2018-01-09T07:00:51.395077Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/SourceProjects/TIADB/trunk/common/admin/UFSOA.pls</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/SourceProjects/TIADB/trunk/common/admin/Utl_foundation.pls</path>
+</paths>
+<msg>TIA-14562 Implemented new function check_custom_options and invocation in utl_foundation package.</msg>
+</logentry>
+<logentry
+   revision="85147">
+<author>rsti</author>
+<date>2018-01-09T06:36:59.332577Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/SourceProjects/TIADB/trunk/claim/claim/P5700.pls</path>
+</paths>
+<msg>TIA-14550 - Claim item is posted wrong into GL</msg>
+</logentry>
+<logentry
+   revision="85141">
+<author>rsti</author>
+<date>2018-01-08T13:10:46.167857Z</date>
+<paths>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/SourceProjects/TIADB/trunk/claim/claim/P5700.pls</path>
+</paths>
+<msg>TIA-14550 - Claim item is posted wrong into GL</msg>
+</logentry>
+</log>
