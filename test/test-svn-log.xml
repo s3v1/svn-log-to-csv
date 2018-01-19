@@ -21,10 +21,10 @@
 <date>2018-01-08T02:50:59.456013Z</date>
 <paths>
 <path
-   action="M"
-   prop-mods="false"
    text-mods="true"
-   kind="file">/subversion/trunk/subversion/bindings/swig/python/libsvn_swig_py/swigutil_py.c</path>
+   kind="file"
+   action="M"
+   prop-mods="false">/subversion/trunk/subversion/bindings/swig/python/libsvn_swig_py/swigutil_py.c</path>
 </paths>
 <msg>swig-py: Support raw binary file-like objects for readable svn_stream_t*
 parameters. [D:bindings]
@@ -75,10 +75,10 @@ Review by: troycurtisjr, brane
    action="M"
    prop-mods="false">/subversion/trunk/subversion/bindings/javahl/native/Prompter.cpp</path>
 <path
-   prop-mods="false"
    text-mods="true"
    kind="file"
-   action="M">/subversion/trunk/tools/examples/ExampleAuthn.java</path>
+   action="M"
+   prop-mods="false">/subversion/trunk/tools/examples/ExampleAuthn.java</path>
 </paths>
 <msg>Fix a JavaHL bug in the prompting for SSL server trust: attempting to
 temporarily accept failures would lead to reject behaviour.
@@ -113,10 +113,10 @@ temporarily accept failures would lead to reject behaviour.
 <date>2018-01-10T15:29:59.199794Z</date>
 <paths>
 <path
-   action="M"
-   prop-mods="false"
    text-mods="true"
-   kind="file">/subversion/trunk/tools/dev/unix-build/Makefile.svn</path>
+   kind="file"
+   action="M"
+   prop-mods="false">/subversion/trunk/tools/dev/unix-build/Makefile.svn</path>
 </paths>
 <msg>* tools/dev/unix-build/Makefile.svn: Ignore MAKE_JOBS while compiling cyrus-sasl.
   cyrus-sasl doesn't seem to build reliably in parallel make mode. 
@@ -128,10 +128,10 @@ temporarily accept failures would lead to reject behaviour.
 <date>2018-01-10T15:46:34.768944Z</date>
 <paths>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/subversion/trunk/tools/dev/unix-build/README</path>
+   kind="file">/subversion/trunk/tools/dev/unix-build/README</path>
 </paths>
 <msg>* tools/dev/unix-build/README: Add some notes about using this on OpenBSD.
   I keep forgetting which packages I need to install first...
@@ -158,10 +158,10 @@ temporarily accept failures would lead to reject behaviour.
 <date>2018-01-10T17:37:13.303019Z</date>
 <paths>
 <path
-   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file">/subversion/trunk/tools/dev/unix-build/Makefile.svn</path>
+   kind="file"
+   action="M">/subversion/trunk/tools/dev/unix-build/Makefile.svn</path>
 </paths>
 <msg>Follow-up to r1820758:
 
@@ -175,20 +175,20 @@ temporarily accept failures would lead to reject behaviour.
 <date>2018-01-10T20:11:02.578014Z</date>
 <paths>
 <path
-   kind="file"
    action="M"
    prop-mods="false"
-   text-mods="true">/subversion/trunk/subversion/mod_dav_svn/dav_svn.h</path>
+   text-mods="true"
+   kind="file">/subversion/trunk/subversion/mod_dav_svn/dav_svn.h</path>
 <path
    action="M"
    prop-mods="false"
    text-mods="true"
    kind="file">/subversion/trunk/subversion/mod_dav_svn/mod_dav_svn.c</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/subversion/trunk/subversion/mod_dav_svn/version.c</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/subversion/trunk/subversion/mod_dav_svn/version.c</path>
 </paths>
 <msg>Make the reporting of commit capabilites such as SVNDIFF version and
 PUT checksums depend on the master version when a master-slave proxy
@@ -211,25 +211,25 @@ earlier version masters.
 <date>2018-01-15T17:19:42.453081Z</date>
 <paths>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/subversion/trunk/subversion/include/svn_base64.h</path>
+   kind="file">/subversion/trunk/subversion/include/svn_base64.h</path>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/subversion/trunk/subversion/include/svn_client.h</path>
+   kind="file">/subversion/trunk/subversion/include/svn_client.h</path>
 <path
    action="M"
    prop-mods="false"
    text-mods="true"
    kind="file">/subversion/trunk/subversion/include/svn_io.h</path>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/subversion/trunk/subversion/include/svn_ra.h</path>
+   kind="file">/subversion/trunk/subversion/include/svn_ra.h</path>
 <path
    action="M"
    prop-mods="false"
@@ -265,30 +265,30 @@ earlier version masters.
    text-mods="true"
    kind="file">/subversion/trunk/subversion/include/private/svn_cmdline_private.h</path>
 <path
+   kind="file"
    action="M"
    prop-mods="false"
-   text-mods="true"
-   kind="file">/subversion/trunk/subversion/include/svn_io.h</path>
+   text-mods="true">/subversion/trunk/subversion/include/svn_io.h</path>
 <path
+   kind="file"
    action="M"
    prop-mods="false"
-   text-mods="true"
-   kind="file">/subversion/trunk/subversion/libsvn_subr/cmdline.c</path>
+   text-mods="true">/subversion/trunk/subversion/libsvn_subr/cmdline.c</path>
 <path
    action="M"
    prop-mods="false"
    text-mods="true"
    kind="file">/subversion/trunk/subversion/libsvn_subr/io.c</path>
 <path
+   text-mods="true"
    kind="file"
    action="M"
-   prop-mods="false"
-   text-mods="true">/subversion/trunk/subversion/svn/svn.c</path>
+   prop-mods="false">/subversion/trunk/subversion/svn/svn.c</path>
 <path
-   action="M"
-   prop-mods="false"
    text-mods="true"
-   kind="file">/subversion/trunk/subversion/svnbench/svnbench.c</path>
+   kind="file"
+   action="M"
+   prop-mods="false">/subversion/trunk/subversion/svnbench/svnbench.c</path>
 <path
    text-mods="true"
    kind="file"
@@ -310,10 +310,10 @@ earlier version masters.
    action="M"
    prop-mods="false">/subversion/trunk/tools/client-side/svnconflict/svnconflict.c</path>
 <path
+   prop-mods="false"
    text-mods="true"
    kind="file"
-   action="M"
-   prop-mods="false">/subversion/trunk/tools/dev/svnmover/svnmover.c</path>
+   action="M">/subversion/trunk/tools/dev/svnmover/svnmover.c</path>
 </paths>
 <msg>Rename and move the new-for-1.10 function 'svn_io_stdin_readline()' to
 'svn_cmdline__stdin_readline()'.
@@ -346,15 +346,15 @@ form.
 <date>2018-01-19T11:29:49.790382Z</date>
 <paths>
 <path
-   text-mods="true"
    kind="file"
    action="M"
-   prop-mods="false">/subversion/trunk/subversion/include/svn_client.h</path>
+   prop-mods="false"
+   text-mods="true">/subversion/trunk/subversion/include/svn_client.h</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/subversion/trunk/subversion/libsvn_client/shelve.c</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/subversion/trunk/subversion/libsvn_client/shelve.c</path>
 </paths>
 <msg>Remove lower level shelving functions from (experimental) public API.
 
